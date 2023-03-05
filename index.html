@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <h1 class="date"></h1>
+            <h3 class="time"></h3>
+        </div>
+        <form class="insert">
+            <input type="text" name="task" placeholder="Add Task" class="task">
+            <button type="submit" class="add-btn">+</button>
+        </form>
+        <ul class="todo-list"></ul>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
